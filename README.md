@@ -1,124 +1,71 @@
-📊 Optimize MoMo Operations and Enhance User Experience through Mobile top-up service Analytics
-
-🎯 Introduce the Topic and Its Objectives
-📱 Mobile Topup (Topup service) is one of MoMo's most important services with a large proportion of users and revenue. Topup service on the MoMo app is displayed under two icons: 'Nạp tiền điện thoại' and 'Mua mã thẻ di động'.
-
-🔍 This analysis will focus on exploring and analyzing the dataset from the "MoMo Talent 2024" competition.
-
-🎯 The goal of this analysis is to uncover trends, patterns, and correlations between the variables in the dataset, thereby providing valuable recommendations for the business. Understanding this data not only helps optimize MoMo's business operations but also enhances user experience through more personalized services.
-
-📂 Dataset
-The dataset used in this project is obtained from "MoMo Talent 2024" competition. The dataset includes information on transactions, commissions, and user information, stored in three main tables:
-
-📅 "Data Transactions": Historical daily transactions data during Jan-Dec 2020.
-📅 "Data Commission": The percentage of commission paid by the Telco's merchants to MoMo.
-📅 "Data User_Info": The users' demographic information.
-🛠️ Tools
-🔧 Tools Used: Power BI, Power Query Editor, DAX.
-🛠️ Implementation
-🗂️ Data Collection
-Downloaded the dataset from MoMo and imported it into the project environment using Power Query Editor for initial data exploration.
-🧹 Data Cleaning
-Transformed data using Power Query Editor to ensure consistency and accuracy.
-Removed duplicate entries to prevent skewing the analysis.
-Re-synchronize date format for consistency.
-Replace null values ​​in the "Purchase_status" column with the value "Tự mua".
-Resynchronize values ​​in the "Location" & "Gender" columns.
-Edit the values ​​in the "Age" column for brevity.
-📊 Data Analysis
-Renamed columns for clarity and created calculated columns as needed to derive additional insights.
-Established relationships between different tables (e.g., customer demographics, service usage) to facilitate comprehensive analysis.
+# 📊 Analysis of University Entrance Exams in Vietnam (2021-2024)
+## 🎯 Introduction and Objectives
+University entrance exams in Vietnam determine students' academic futures. This analysis explores datasets from 2021 to 2024 to uncover trends, patterns, and insights. The primary objectives are to:
+- Understand score distributions across subjects and years.
+- Compare performance trends over the years.
+- Analyze the distribution of subject groups A, A1, B, C, and D.
+- Identify correlations between subjects and other variables.
+## 📂 Dataset
+The dataset includes exam scores and student information from 2021 to 2024. These include students' id, scores, year, and province.
+##🛠️ Tools Used
+🔧 Python
+## 🛠️ Implementation
+### 🗂️ Data Collection
+Collected data from the Ministry of Education and Training and imported it into the project environment.
+### 🧹 Data Cleaning
+Check Columns: Ensure that all four files (2021, 2022, 2023, 2024) have matching columns.
+Verified that each file contains these columns without discrepancies.
+Concatenate Files: Combine the four files into a single dataset.
+Check for Null Values: Identify and handle missing values.
+Remove Duplicates: Ensure there are no duplicate entries in the dataset.
+### 📊 Data Analysis
+Renamed columns for clarity and created calculated columns to derive additional insights.
+Established relationships between different tables (e.g., student demographics and exam scores) to facilitate comprehensive analysis.
 Applied statistical techniques, such as correlation analysis, to identify relationships between variables.
 📈 Result Visualization
-Create a layout of key metrics including "Total Amount", "Revenune", "Total Orders" in large sizes on the left side of the dashboard.
-Developed various charts, graphs, and other visual representations (e.g., bar charts, pie charts, scatter plots) to illustrate findings.
+Developed key metrics such as "Average Score", "Pass Rate", and "Top Performers" on the dashboard.
+Created various visual representations (e.g., bar charts, pie charts, scatter plots) to illustrate findings.
 Used slicers and filters in Power BI to allow interactive exploration of the data.
-Dashboard OVERVIEW image
-Dashboard TOP-UP PERFORMANCE image1
-Dashboard DEMOGRAPHICS & TRANSACTIONS image
+Dashboard Overview
+Score Distribution Dashboard
+
+Subject Distribution Dashboard
+
+Yearly Comparison Dashboard
+
+Group Distribution Dashboard
+
+Correlation Analysis Dashboard
+
 💡 Observations and Insights
-👨‍👩‍👧‍👦 User Demographics
-🎂 Age Distribution
-Users in the 23-27 age group account for the highest proportion (25.48%), followed by the 28-32 group (20.84%).
-Age groups from 33-37 and 18-22 also account for a significant but lower portion.
-This shows that the majority of MoMo users are of young working age and students.
-⚧️ Gender Distribution
-The proportion of men using the service is higher than that of women in all age groups, with the male group from 23-27 accounting for the highest proportion (15.15%).
-📢 Transaction Behavior
-📺 Revenue by Merchant: Viettel leads in average monthly revenue (596,033 VND), followed by Mobifone and Vinaphone. Gmobile has the lowest revenue.
-🏡 Location-Based Transaction Amount: Users in other regions (besides HCMC and Hanoi) tend to spend more, especially the age group from 23-27. Meanwhile, HCMC and Hanoi have lower but still significant spending levels.
-🔠User Type: The proportion of "NEW" accounts for 99.27% ​​of the total. Customer only used it once and has not used it again.
-⚠️ THE SERVICE MAY HAVE ERRORS, BAD POINTS, OR POOR CUSTOMER CARE DURING USE
-🔔 Marketing Tips for Boosting Topup's Monthly Performance
-📋 SURVEY
-Create a survey with a discount code to top up mobile phones for old MoMo customers about the Top-up service to find out why customers do not use the service again.
-🎯 Targeted Promotions for Young Adults
-Focus on the young user group (23-27 years old) with attractive promotional campaigns such as higher cashback, gifts when depositing, or special discounts on cooperative services.
-⚧️ Gender-Specific Campaigns
-Design promotional programs suitable for men, because the rate of men using the service is higher. For example, promotions related to sports, technology or consumer products that are popular with men.
-🏙️ Location-Based Incentives
-Provide special incentives for users in other regions (outside HCM and Hanoi) to stimulate them to deposit more.
-👫 Referral and Loyalty Programs
-Create refer-a-friend and loyalty programs to encourage existing users to refer friends and deposit regularly.
-🏇 Compete for Cashback with Other E-wallets
-🚨 Momo is facing stiff competition from a host of other e-wallets that have deep mobile card cashback schemes for users. In response, MoMo is considering deducting a part of revenue to increase cashback for users in all Telco merchants.
+👨‍👩‍👧‍👦 Score Distribution
+Overall Score Distribution: Mathematics and Literature show higher average scores, while subjects like Physics and Chemistry have lower averages.
+Yearly Trends: Performance has generally improved over the years, with slight variations in certain subjects.
+📢 Subject Distribution
+Subject Popularity: Mathematics and Literature are the most taken subjects, while Civic Education and Foreign Language have lower participation.
+Performance Trends: Consistent improvement in Mathematics scores over the years, while Biology scores have fluctuated.
+📅 Yearly Comparison
+Improvement Over Time: Noticeable improvement in average scores from 2021 to 2024.
+Yearly Variations: Some subjects show significant variations year-on-year, indicating changes in exam difficulty or student preparedness.
+🔠 Group Distribution
+Group A (Math, Physics, Chemistry): Consistent performance with a slight upward trend.
+Group A1 (Math, Physics, English): Significant improvement in English scores over the years.
+Group B (Math, Biology, Chemistry): Fluctuating Biology scores affecting overall group performance.
+Group C (Literature, History, Geography): Steady performance with minor variations.
+Group D (Math, Literature, Foreign Language): Noticeable improvement in Foreign Language scores.
+🔍 Correlation Analysis
+Subject Correlations: Strong correlation between Physics and Chemistry scores, indicating similar preparation strategies.
+Demographic Correlations: Performance variations across different provinces, suggesting disparities in educational resources.
+🔔 Recommendations for Improvement
+Enhancing Exam Preparation
+Targeted Study Programs: Develop programs focusing on subjects with lower average scores, like Physics and Biology.
+Additional Resources: Provide more study materials and resources for students from underperforming provinces.
+Policy Recommendations
+Equitable Resource Distribution: Ensure that schools in all provinces receive adequate resources to prepare students for exams.
+Teacher Training: Conduct regular training programs for teachers to help them better prepare students for these exams.
+Student Support
+Counseling Services: Offer counseling services to help students manage exam stress and improve their performance.
+Mentorship Programs: Implement mentorship programs where top-performing students mentor those who are struggling.
+🔍 Conclusion
+This analysis provides valuable insights into the performance trends of students in university entrance exams in Vietnam from 2021 to 2024. By leveraging these insights, stakeholders can take informed actions to enhance the exam preparation process and improve overall student outcome📊 Optimize MoMo Operations and Enhance User Experience through Mobile top-up service Analytics
 
-Suppose that users currently earn a flat 1% cash-back on their spending amount. The proposed change is as follows:
-Merchant	% cashback (current)	% cashback (proposal)
-Viettel	1	2
-Mobifone	1	2.5
-Vinaphone	1	3
-Vietnamobile	1	3
-Gmobile	1	3
-How does this affect the service (Comment from many perspectives)? Do you agree with this option?
-⚖️ Analysis from Multiple Perspectives
-1️⃣ User Perspective:
-Positive Impact:
-Increased Cashback Incentive: Users gain more value per transaction, promoting more frequent use of MoMo's services, especially with high cashback providers like Vinaphone and Vietnamobile.
-Enhanced Customer Satisfaction: Higher cashback improves user satisfaction, boosting retention and user experience.
-Negative Impact:
-Short-Term Expectations: Users may expect continued or increased cashback, potentially pressuring MoMo to maintain these offers.
-2️⃣ Financial Perspective:
-Short-Term Revenue Loss:
-Direct Cost: Higher cashback rates reduce short-term profits as more revenue is returned to users.
-Budget Reallocation: MoMo must carefully manage its budget to prevent negative impacts on other business activities.
-Long-Term Financial Gains:
-Increased Transaction Volume: Higher cashback rates can boost transaction numbers and total revenue from both existing and new users.
-Customer Retention and Acquisition: Better retention and new customer acquisition can offset short-term revenue losses, leading to long-term profits.
-3️⃣ Competitive Perspective:
-Strengthened Competitive Position:
-Market Differentiation: Offering superior value through higher cashback can differentiate MoMo from competitors.
-Increased Market Share: Higher cashback rates can attract users from other e-wallets, expanding MoMo's market share and strengthening its market position.
-Market Reactions:
-Competitive Response: Competitors may increase their promotions, leading to a potential promotional war. MoMo needs to stay flexible in its business strategy to respond effectively.
-👌 Do you agree with this option?
-I agree only if this campaign is applied for a short period of time, long enough for momo to find out the reason why most current customers do not use the service again.
-Once you have found the reason why customers do not use the service again. I recommend that momo stop this campaign and return to the original refund level.
-⏲️ After a while, you can stop this refund offer and instead run other campaigns to both retain customers and optimize revenue such as:
-
-Accumulate points to redeem phone recharge card codes
-Introduction to receive phone recharge card code
-Refund for premium customers,...
-☑️ Because the race for refund rates between e-wallet providers will lead to an endless promotion war and businesses will suffer heavy losses. This is only suitable for the early stages of business development when getting acquainted with the market and approaching customers.
-
-📋 A typical example is that Techcombank has a 1% cashback offer on all card transactions applicable to all card types and all customers long ago. Up to now, Techcombank has eliminated this incentive and replaced it with other new incentives to both retain customers and optimize its profits.
-
-💡 Topup Development Strategy Ideas for MoMo
-1️⃣ Loyalty Programs
-Develop a tiered loyalty program offering increasing benefits based on user activity levels.
-2️⃣ Partnerships with Merchants
-Partner with retailers and services to provide exclusive promotions when recharging via MoMo.
-For example: discounts when shopping at partner stores, or special offers when using dining and entertainment services.
-
-3️⃣ Subscription Models
-Provide recurring recharge service packages with benefits such as higher cashback, priority service, or bonus points when registering for the package.
-4️⃣ Educational Campaigns
-Strengthen educational campaigns about the benefits of using e-wallets, especially targeting users who are new to technology. Organize online or offline seminars to introduce and instruct on how to use MoMo.
-5️⃣ Gamification
-Introduce gamification elements such as challenges and rewards for frequent top-ups.
-6️⃣ User Feedback Loop
-Implement a feedback mechanism to gather user input on desired features and improvements.
-7️⃣ Data-Driven Personalization
-Leverage user data to provide personalized recommendations and promotions.
-8️⃣ Enhanced User Experience
-Focus on improving the user interface and experience to make top-ups more seamless and convenient.
