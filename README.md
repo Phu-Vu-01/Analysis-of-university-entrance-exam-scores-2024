@@ -6,7 +6,7 @@ University entrance exams in Vietnam determine students' academic futures. This 
 - Analyze the distribution of subject groups A, A1, B, C, and D.
 - Identify correlations between subjects and other variables.
 ## 📂 Dataset
-The dataset includes exam scores and student information from 2021 to 2024. These include students' id, scores, year, and province.
+- The dataset includes exam scores and student information from 2021 to 2024: https://shorturl.at/M15Mc
 ## 🛠️ Tools Used
 🔧 Python
 ## 🛠️ Implementation
@@ -27,10 +27,10 @@ Collected data from the Ministry of Education and Training and imported it into 
 - Correlation of Each Subject
 - Scores Among Each Province
 ## 📊 Conclusion
-- From this analysis, several valuable insights emerge:
+### From this analysis, several valuable insights emerge:
 * General Score Trends: This analysis provides a comprehensive overview of student performance across various subjects from 2021 to 2024. The trends in average scores help in understanding overall academic progress and identifying areas needing attention.
 * Student Score Comparison: Students can use this analysis to compare their own scores against historical data. This comparison helps students gauge their performance relative to peers and predict their potential scores for university entrance in 2024.
 * University Admission Insights: University boards can leverage this data to understand which subject groups have higher average scores. This information aids in refining admission criteria and selecting students more effectively based on performance trends.
 * Regional Performance: The analysis highlights the variations in scores among different provinces. This regional data can inform educational policy decisions, helping allocate resources and support to areas with lower performance.
-Overall, this analysis equips students, educators, and university administrators with the necessary insights to make informed decisions, improve educational strategies, and enhance student outcomes across Vietnam.
-
+### Overall, this analysis equips students, educators, and university administrators with the necessary insights to make informed decisions, improve educational strategies, and enhance student outcomes across Vietnam.
+# Link to Google Colab of this analysis: https://shorturl.at/n9iiJ
