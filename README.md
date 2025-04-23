@@ -32,4 +32,4 @@ Collected data from the Ministry of Education and Training and imported it into 
 * Student Score Comparison: Students can use this analysis to compare their own scores against historical data. This comparison helps students gauge their performance relative to peers and predict their potential scores for university entrance in 2024.
 * University Admission Insights: University boards can leverage this data to understand which subject groups have higher average scores. This information aids in refining admission criteria and selecting students more effectively based on performance trends.
 * Regional Performance: The analysis highlights the variations in scores among different provinces. This regional data can inform educational policy decisions, helping allocate resources and support to areas with lower performance.
-## Link to Google Colab of this analysis: https://shorturl.at/n9iiJ
+## Link to Google Colab of this analysis: https://colab.research.google.com/drive/1ibK88tYRluE8L4tpJ6TWHEi_k08CPqnP#scrollTo=xMQeJFrOX2Tr
